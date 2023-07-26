@@ -2,6 +2,11 @@
 
 dump mechine status and config for diff test
 
+recommended OS
+
+- Ubuntu
+- Debian
+
 -
 
 ```
