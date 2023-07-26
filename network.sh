@@ -1,22 +1,26 @@
 #!/usr/bin/env bash
 
-echo "----"
+echo "---- nslookup"
 nslookup goolge.com
 
-echo "----"
+echo "---- ping"
 ping -n 3 google.com
 
-echo "----"
+echo "---- ssh"
 cat /etc/ssh/ssh_config
 cat /etc/ssh/sshd_config
 
 
-echo "----"
+echo "---- hosts"
 cat /etc/hosts.allow
 cat /etc/hosts.deny
 
-echo "----"
+echo "---- dhcpcd.conf"
 cat /etc/dhcpcd.conf
+cat /etc/resolv.conf
 
-echo "----"
+echo "---- openssl"
 openssl version
+
+echo "---- lsof"
+lsof -i
