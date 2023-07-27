@@ -4,7 +4,7 @@ echo "---- nslookup"
 nslookup goolge.com
 
 echo "---- ping"
-ping -n 3 google.com
+ping -c 3 google.com
 
 echo "---- ssh"
 cat /etc/ssh/ssh_config
