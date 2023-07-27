@@ -6,8 +6,8 @@ nslookup goolge.com
 echo "---- ping"
 ping -c 3 google.com
 
-echo "---- tracert"
-tracert www.google.co.jp
+echo "---- traceroute"
+traceroute www.google.co.jp
 
 echo "---- ssh"
 cat /etc/ssh/ssh_config
